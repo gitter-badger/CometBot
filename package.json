@@ -1,0 +1,26 @@
+{
+  "name": "cometbot",
+  "version": "0.0.1",
+  "description": "A modular IRC bot written in NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "./node_modules/eslint/bin/eslint.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kevinvdburgt/CometBot.git"
+  },
+  "keywords": [
+    "ircbot"
+  ],
+  "author": "Kevin van der Burgt <mail@kevinvdburgt.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/kevinvdburgt/CometBot/issues"
+  },
+  "homepage": "https://github.com/kevinvdburgt/CometBot#readme",
+  "devDependencies": {
+    "eslint": "^3.3.1"
+  }
+}
