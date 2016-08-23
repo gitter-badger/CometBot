@@ -1,4 +1,9 @@
 # CometBot ☄️
+[![Build Status](https://travis-ci.org/kevinvdburgt/CometBot.svg?branch=master)](https://travis-ci.org/kevinvdburgt/CometBot)
+[![Dependency Status](https://img.shields.io/david/kevinvdburgt/CometBot.svg?style=flat)](https://david-dm.org/kevinvdburgt/CometBot#info=Dependencies)
+[![devDependency Status](https://img.shields.io/david/dev/kevinvdburgt/CometBot.svg?style=flat)](https://david-dm.org/kevinvdburgt/CometBot#info=devDependencies)
+[![License](https://img.shields.io/badge/license-GPLv3-blue.svg?style=flat)](http://opensource.org/licenses/GPL-3.0)
+
 A modular IRC bot written in NodeJS
 
 ## Features
