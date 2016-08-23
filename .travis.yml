@@ -13,4 +13,4 @@ script:
   - npm run test
 
 notifications:
-  irc: "irc.freenode.org#deltion"
+  irc: "irc.freenode.org#cometbot"

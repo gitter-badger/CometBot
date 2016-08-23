@@ -9,6 +9,9 @@ A modular IRC bot written in NodeJS
 ## Features
 - Nothing yet
 
+##  Plugins
+
+
 ## Version
 Current version `0.0.1`
 
