@@ -1,5 +1,6 @@
 'use strict';
 
+import EventEmitter2 from 'eventemitter2';
 import Bot from './bot';
 
 new Bot({
@@ -32,9 +33,6 @@ new Bot({
     {
       plugin: 'example',
       enabled: true,
-      settings: {
-        // None...
-      }
     }
   ]
 });
