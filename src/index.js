@@ -1,22 +1,48 @@
 'use strict';
 
-import fs from 'fs';
-import path from 'path';
-import inquirer from 'inquirer';
+import Bot from './bot';
 
-// Check if the configuration file exists.
-if (!fs.accessSync(path.join('config.json'), fs.constants.F_OK | fs.constants.R_OK)) {
-  inquirer.prompt([
+new Bot({
+  client: {
+    server: 'irc.freenode.org',
+    nickname: 'cometbot',
+    username: 'cometbot',
+    realname: 'CometBot',
+    port: 6667,
+    localAddress: null,
+    debug: false,
+    showErrors: false,
+    autoRejoin: false,
+    channels: ['#cometbot'],
+    secure: false,
+    selfSigned: false,
+    certExpired: false,
+    floodProtection: false,
+    floodProtectionDelay: 1000,
+    sasl: false,
+    retryCount: 0,
+    retryDelay: 2000,
+    stripColors: false,
+    channelPrefixes: '*&#',
+    messageSplit: 512,
+    encoding: '',
+  },
+
+  plugins: [
     {
-      'type': 'confirm',
-      'name': 'continue',
-      'message': 'Configuration file is missing, run the setup',
-      'default': true
+      plugin: 'example',
+      enabled: true,
+      settings: {
+        // None...
+      }
     }
-  ]).then(answers => {
-    if (answers.continue === false) {
-      process.exit(1);
-    }
-    require('./setup');
-  });
-}
+  ]
+});
+
+// When CometBot cannot find the config.json file it will automatically launch
+// the setup script.
+// if (!fs.accessSync(path.join('config.json'), fs.constants.F_OK | fs.constants.R_OK)) {
+//   require('./setup');
+// } else {
+//   const config = require('../config');
+// }
