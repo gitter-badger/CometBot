@@ -1,4 +1,6 @@
 # CometBot ☄️
+
+[![Join the chat at https://gitter.im/kevinvdburgt/CometBot](https://badges.gitter.im/kevinvdburgt/CometBot.svg)](https://gitter.im/kevinvdburgt/CometBot?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Build Status](https://travis-ci.org/kevinvdburgt/CometBot.svg?branch=master)](https://travis-ci.org/kevinvdburgt/CometBot)
 [![Dependency Status](https://img.shields.io/david/kevinvdburgt/CometBot.svg?style=flat)](https://david-dm.org/kevinvdburgt/CometBot#info=Dependencies)
 [![devDependency Status](https://img.shields.io/david/dev/kevinvdburgt/CometBot.svg?style=flat)](https://david-dm.org/kevinvdburgt/CometBot#info=devDependencies)
